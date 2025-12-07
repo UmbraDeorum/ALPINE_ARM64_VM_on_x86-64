@@ -55,9 +55,11 @@ rc-service sshd restart
 
 ## On host:
 scp -P 22 <target_file_path> root@172.20.0.10:<destination_path>
+
+
+# To close the VM
+poweroff
 ```
-
-
 
 ## Help
 
